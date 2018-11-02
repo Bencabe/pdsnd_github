@@ -1,15 +1,18 @@
 ### Date created
-Include the date you created this project and README file.
+I created this project on the 2nd of November 2018
 
 ### Project Title
-Replace the Project Title
+Exploring US bikeshare data
 
 ### Description
-Describe what your project is about and what it does
+In this project you can explore the bikeshare data from Chicago, New York or Washington
 
 ### Files used
-Include the files used
+Four files are used in this project. Three containing the raw date of each of the three cities you can explore and one containing a python script  
+*chicago.csv*  
+*new_york_city.csv*  
+*washington.csv*  
+*bikeshare.py*
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+I would like to credit Udacity for their excellent tutelage
