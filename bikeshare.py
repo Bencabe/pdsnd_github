@@ -130,7 +130,7 @@ def trip_duration_stats(df):
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
 
-    # display total travel time
+    # display total travel time in hours
     total_travel = "The total amount of time spent travelling is: {} hours".format(sum(df['Trip Duration']) / 3600)
     print(total_travel)
 
