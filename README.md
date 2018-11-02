@@ -8,7 +8,7 @@ Exploring US bikeshare data
 In this project you can explore the bikeshare data from Chicago, New York or Washington
 
 ### Files used
-Four files are used in this project. Three containing the raw date of each of the three cities you can explore and one containing a python script  
+Four files are used in this project. Three containing the raw data of each of the three cities you can explore and one containing a python script  
 *chicago.csv*  
 *new_york_city.csv*  
 *washington.csv*  
