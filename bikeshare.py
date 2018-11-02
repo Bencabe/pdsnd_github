@@ -37,7 +37,7 @@ def get_filters():
     day = input("If you would like to explore a specific day please pick a day of the week. If not please type 'all': ").lower()
     days = ['all','monday','tuesday','wednesday','thursday','friday','saturday','sunday']
     while day not in days:
-        day = input("Sorry, that isn't a valid day. Please try again: ").lower()
+        day = input("that isn't a valid day. Please try again: ").lower()
         if day in days:
             break
 
