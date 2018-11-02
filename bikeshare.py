@@ -158,7 +158,7 @@ def user_stats(df):
         gender_type = df['Gender'].value_counts()
         print(gender_type)
     except:
-        print("Sorry we don't have information about the user's gender for this city")
+        print("sorry we don't have information about the user's gender for this city")
 
     # Display earliest, most recent, and most common year of birth
     try:
@@ -167,7 +167,7 @@ def user_stats(df):
         most_common_year = df['Birth Year'].mode()[0]
         print("The earliest birth year of a user is {}.\nThe latest birth year of a user is {}.\nThe most common birth year among the users is {}.".format(earliest_year,latest_year,most_common_year))
     except:
-        print("Sorry we don't have information about the user's birth year for this city")
+        print("sorry we don't have information about the user's birth year for this city")
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
